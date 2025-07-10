@@ -1,0 +1,229 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        
+        .header {
+            background-color: #ffd700;
+            padding: 15px 0;
+            border-bottom: 2px solid #333;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            border-radius: 3px;
+        }
+
+        .logo-text {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .nav {
+            font-size: 14px;
+        }
+
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .hero {
+            background-color: #e8e8e8;
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 2px solid #333;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .hero p {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+
+       
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0;
+            margin-top: 0;
+        }
+
+        .section {
+            background-color: white;
+            border: 1px solid #333;
+            border-top: none;
+            padding: 20px;
+            min-height: 300px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        
+        .projects-list {
+            list-style: none;
+        }
+
+        .projects-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+        .projects-list li:last-child {
+            border-bottom: none;
+        }
+
+        
+        .work-item {
+            margin-bottom: 20px;
+        }
+
+        .work-item h3 {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .work-item p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .profile-link {
+            font-size: 12px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .profile-link:hover {
+            text-decoration: underline;
+        }
+
+        
+        .education-item p {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .education-item h4 {
+            font-size: 14px;
+            margin: 15px 0 10px 0;
+            color: #333;
+        }
+
+        .courses-list {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        
+        .reviews {
+            margin-top: 40px;
+            padding: 30px 20px;
+        }
+
+        .reviews h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .review-card {
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .review-text {
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .reviewer-name {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 3px;
+        }
+
+        .reviewer-title {
+            font-size: 11px;
+            color: #999;
+        }
+
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 12px;
+            color: #666;
+            margin-top: 40px;
+        }
+
+    
+   
